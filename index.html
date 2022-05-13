@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>NBA Hangman</title>
+    <link rel= "stylesheet" href= "style.css">
+  </head>
+  <body>
+    <main>
+      <h1>NBA Hangman</h1>
+      <div id= "gallows">
+        <img src="img/hangman0.png" alt="hangman" style="padding-left: 70px" >
+      </div>
+      <div id= "word"></div>
+      <br>
+      <div id= "controls">
+        <input type= "text" id= "guessBox">
+        <button id= "guessWordButton" class= "button" onclick="guessWord( game )">Guess Word</button>
+        <button id= "newGameButton" class= "button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id= "guesses"></div>
+    </main>   
+   <script src="brains.js"></script>
+  </body>
+</html>

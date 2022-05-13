@@ -1,0 +1,103 @@
+body {
+    background-image: url(img/nba.gif);
+    background-size: cover no repeat;
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(7, 7, 7);
+  }
+  
+  .win {
+    color: rgb(14, 14, 14);
+    background-color: green;
+  }
+  
+  .loss {
+    color: rgb(14, 14, 14);
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Fantasy", "Serif";
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Fantasy", "Serif";
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 153);
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(6, 6, 6);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    color: black;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: rgb(240, 176, 107);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(244, 156, 124)}
+  
+  .button:active {
+    background-color: rgb(237, 84, 18);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
